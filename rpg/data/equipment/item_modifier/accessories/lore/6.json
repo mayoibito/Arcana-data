@@ -1,0 +1,91 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "闇属性のバッジ",
+      "color": "#00ffff",
+      "italic": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": "minecraft:diamond",
+              "count": 1,
+              "components": {
+                "minecraft:custom_model_data": 6
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "装備すると闇属性特攻が上昇する",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-------------",
+        "color": "#696969",
+        "italic": false,
+        "strikethrough": true
+      },
+      [
+        {
+          "text": "\uE006",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "闇属性特攻:",
+          "color": "#6800b3",
+          "italic": false
+        },
+        {
+          "text": " +15%",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": "装備枠: その他",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-------------",
+        "color": "#696969",
+        "italic": false,
+        "strikethrough": true
+      }
+    ],
+    "mode": "replace_all",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": "minecraft:diamond",
+              "count": 1,
+              "components": {
+                "minecraft:custom_model_data": 6
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]
+

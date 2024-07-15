@@ -1,0 +1,13 @@
+#
+#HPバー
+data merge entity @s[scores={system_entity.health_gauge_rate=91..99}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"██████████","color":"green"},{"text":"","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=81..90}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"█████████","color":"green"},{"text":"█","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=71..80}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"████████","color":"green"},{"text":"██","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=61..70}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"███████","color":"green"},{"text":"███","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=51..60}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"██████","color":"green"},{"text":"████","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=41..50}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"█████","color":"yellow"},{"text":"█████","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=31..40}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"████","color":"yellow"},{"text":"██████","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=21..30}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"███","color":"yellow"},{"text":"███████","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=11..20}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"██","color":"red"},{"text":"████████","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=1..10}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"█","color":"red"},{"text":"█████████","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}
+data merge entity @s[scores={system_entity.health_gauge_rate=0}] {CustomName:'[{"text":"|","color":"white","bold":true},{"text":"","color":"red"},{"text":"██████████","color":"dark_gray"},{"text":"|","color":"white"}]',CustomNameVisible:true}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name":"火属性のバッジ",
+      "minecraft:custom_data":{"equipment":true,"equip_slot":"3a","equip_num":"1a"},
+      "minecraft:custom_model_data": 1,
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

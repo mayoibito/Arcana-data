@@ -1,0 +1,1 @@
+execute as @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{weapon_num:18001a}}}}] at @s run function weapon:item/8_rod/18001/main

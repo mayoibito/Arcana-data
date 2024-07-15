@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---------","color":"#005c42","bold":true},{"text":"[","color":"#288c66"},{"text":"Arcana","bold":true,"color":"#00a968"},{"text":"]","color":"#288c66"},{"text":"-------------","color":"#005c42","bold":true}]
+function tick:load/main

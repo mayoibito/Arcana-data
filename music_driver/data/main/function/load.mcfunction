@@ -1,0 +1,2 @@
+tellraw @a [{"text":"---","color":"#005c42","bold":true},{"text":"[","color":"#288c66"},{"text":"Arcana Music Driver","bold":true,"color":"#00a968"},{"text":"]","color":"#288c66"},{"text":"------","color":"#005c42","bold":true}]
+tellraw @a [{"text":"[RPG-Music] Datapacks Reloaded!!","bold":true}]

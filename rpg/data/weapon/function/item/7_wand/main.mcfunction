@@ -1,0 +1,1 @@
+say have_weap_7

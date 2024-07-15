@@ -1,0 +1,27 @@
+{
+  "criteria":{
+    "LeftClick":{
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions":{
+        "player":{
+          "nbt":"{SelectedItem:{id:\"minecraft:netherite_sword\",components:{\"minecraft:custom_data\":{weapon:1b}}}}"
+        },
+        "damage":{
+          "dealt":{
+            "min":0.5,
+            "max":200.0
+          },
+          "type":{
+            "is_projectile":false
+          }
+        },
+        "entity":{
+          "type":"minecraft:panda"
+        }
+      }
+    }
+  },
+  "rewards":{
+    "function":"system:load"
+  }
+}

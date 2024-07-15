@@ -1,0 +1,1 @@
+execute as @e[tag=mgnum_11000] at @s run function weapon:magic/1a/11000a/tick

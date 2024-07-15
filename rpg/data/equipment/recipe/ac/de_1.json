@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:writable_book"
+    }
+  },
+  "pattern": [
+    "   ",
+    " A ",
+    "   "
+  ],
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name":"ステータスチェッカー",
+      "minecraft:custom_data":{"debug_id":"1a"},
+      "minecraft:custom_model_data": -1,
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

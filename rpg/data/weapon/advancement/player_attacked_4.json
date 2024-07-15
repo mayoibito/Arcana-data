@@ -1,0 +1,28 @@
+{
+  "criteria":{
+    "LeftClick":{
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions":{
+        "player":{
+          "nbt":"{SelectedItem:{id:\"minecraft:carrot_on_a_stick\",components:{\"minecraft:custom_data\":{weapon:true}}}}"
+        },
+        "damage":{
+          "dealt":{
+            "min":6.1,
+            "max":9.9
+          },
+          "type":{
+            "is_projectile":false
+          }
+        },
+        "entity":{
+          "type":"minecraft:vex",
+          "nbt":"{Tags:[\"LeftClick\"]}"
+        }
+      }
+    }
+  },
+  "rewards":{
+    "function":"weapon:single/player_attacked_4"
+  }
+}

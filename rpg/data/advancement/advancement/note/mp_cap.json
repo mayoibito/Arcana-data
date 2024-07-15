@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book",
+      "components": {
+        "minecraft:custom_model_data": 10
+      }
+    },
+    "title": {"translate": "arcana.advancement.note.mp_cap.name"},
+    "description": {"translate": "arcana.advancement.note.mp_cap.lore"},
+    "frame": "task",
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "advancement:note/main",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{\"weapon_type\":\"8a\"}}}]}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "雷属性のバッジ",
+      "color": "#00ffff",
+      "italic": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": "minecraft:diamond",
+              "count": 1,
+              "components": {
+                "minecraft:custom_model_data": 4
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "装備すると雷属性特攻が上昇する",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-------------",
+        "color": "#696969",
+        "italic": false,
+        "strikethrough": true
+      },
+      [
+        {
+          "text": "\uE004",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "雷属性特攻:",
+          "color": "#ffff00",
+          "italic": false
+        },
+        {
+          "text": " +15%",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      {
+        "text": "装備枠: その他",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-------------",
+        "color": "#696969",
+        "italic": false,
+        "strikethrough": true
+      }
+    ],
+    "mode": "replace_all",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": "minecraft:diamond",
+              "count": 1,
+              "components": {
+                "minecraft:custom_model_data": 4
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]
+

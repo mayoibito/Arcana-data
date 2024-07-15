@@ -1,0 +1,2 @@
+execute as @e[tag=Entity,dx=0] positioned ~-0.65 ~-0.65 ~-0.65 if entity @s[dx=0] run effect give @s glowing 1 0 true
+execute positioned ^ ^ ^0.25 if entity @s[distance=..8] run function weapon:origin/test

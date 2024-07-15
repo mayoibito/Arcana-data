@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Inventory:[{Slot:-106b,id:\"minecraft:book\",components:{\"minecraft:custom_data\":{magic:true,magic_attri:6a}}}]}"
+  }
+}

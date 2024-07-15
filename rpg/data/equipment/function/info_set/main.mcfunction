@@ -1,0 +1,9 @@
+item modify entity @s player.cursor equipment:accessories/lore/0
+item modify entity @s player.cursor equipment:accessories/lore/1
+item modify entity @s player.cursor equipment:accessories/lore/2
+item modify entity @s player.cursor equipment:accessories/lore/3
+item modify entity @s player.cursor equipment:accessories/lore/4
+item modify entity @s player.cursor equipment:accessories/lore/5
+item modify entity @s player.cursor equipment:accessories/lore/6
+item modify entity @s player.cursor equipment:accessories/lore/7
+item modify entity @s player.cursor equipment:accessories/lore/de_1

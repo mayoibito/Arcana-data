@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "minecraft:book"
+    },
+    "B": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    " B ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "minecraft:book",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name":"「フレイムI」の魔導書",
+      "minecraft:custom_data":{"magic":true,"magic_attri":"1a","magic_num":"11000a","magic_lv":"1a"},
+      "minecraft:custom_model_data": 11
+    }
+  }
+}

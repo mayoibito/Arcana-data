@@ -1,0 +1,94 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "translate": "arcana.weapon.10001",
+      "color": "white",
+      "italic": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": "minecraft:carrot_on_a_stick",
+              "count": 1,
+              "components": {
+                "minecraft:custom_model_data": 10001
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "-------------",
+        "color": "#696969",
+        "italic": false,
+        "strikethrough": true
+      },
+      {
+        "text": "石から作られた短剣",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-------------",
+        "color": "#696969",
+        "italic": false,
+        "strikethrough": true
+      },
+      [
+        {
+        "translate": "arcana.weapon.lore.temp.attack",
+        "color": "white",
+        "italic": false
+        },
+        {
+          "text": "3"
+        }
+      ],
+      {
+        "translate": "arcana.weapon.lore.temp.at_type.ph_none",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "translate": "arcana.weapon.lore.temp.weapon_type.0",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "-------------",
+        "color": "#696969",
+        "italic": false,
+        "strikethrough": true
+      }
+    ],
+    "mode": "replace_all",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": "minecraft:carrot_on_a_stick",
+              "count": 1,
+              "components": {
+                "minecraft:custom_model_data": 10001
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

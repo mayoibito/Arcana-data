@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{SelectedItem:{id:\"minecraft:bow\",components:{\"minecraft:custom_data\":{weapon:true,weapon_type:5a}}}}"
+  }
+}

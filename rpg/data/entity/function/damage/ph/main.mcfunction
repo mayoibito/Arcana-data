@@ -1,0 +1,1 @@
+execute as @e[tag=Entity,scores={cal.Damage_In_Ph_None=1..}] at @s run function entity:damage/ph/none

@@ -1,0 +1,1 @@
+tag @a remove Enchantment.Attack_Boost.lv1

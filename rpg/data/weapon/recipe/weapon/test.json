@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:cobblestone"
+    },
+    "B": {
+      "item": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_name":"石の短剣",
+        "minecraft:custom_data":{"weapon":true,"weapon_type":"0a","weapon_num":"10001a"},
+        "minecraft:custom_model_data": 10001
+      }
+    }
+  },
+  "pattern": [
+    "   ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name":"石の短剣",
+      "minecraft:custom_data":{"weapon":true,"weapon_type":"0a","weapon_num":"10001a"},
+      "minecraft:custom_model_data": 10001
+    }
+  }
+}

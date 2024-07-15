@@ -1,0 +1,1 @@
+tag @s add Enchantment.Attack_Boost.lv1

@@ -1,0 +1,35 @@
+{
+  "description": {
+    "text": "攻撃",
+    "color": "blue",
+    "bold": false,
+    "italic": false,
+    "underlined": true
+  },
+  "supported_items": "minecraft:carrot_on_a_stick",
+  "primary_items": "minecraft:carrot_on_a_stick",
+  "weight": 10,
+  "max_level": 255,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "weapon:enchantment/attack_boost"
+        }
+      }
+    ]
+  }
+}

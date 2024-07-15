@@ -1,0 +1,1 @@
+execute as @e[tag=Entity,tag=E0001] at @s run function entity:stat/entity/e0001

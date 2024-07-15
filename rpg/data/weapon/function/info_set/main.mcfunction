@@ -1,0 +1,1 @@
+function weapon:info_set/lore/main
