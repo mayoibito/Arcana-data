@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[RPG-Particle] Datapacks Reloaded!!","bold":true}]
