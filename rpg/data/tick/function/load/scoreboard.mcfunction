@@ -268,3 +268,6 @@
     scoreboard objectives add stat_armor.damage dummy
     #移動距離(キル用)
     scoreboard objectives add stat_armor.move_count dummy
+
+
+#TEST
